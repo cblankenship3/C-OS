@@ -37,9 +37,6 @@ struct fProgram
     int finishedAt; // time the program finished at
 };
 
-
-
-//Just a few
 void readText(char* file,int fileSize, int start, int numIn);
 int readProgram(char* file, int start, int numIn);
 string int_to_str(int num);
